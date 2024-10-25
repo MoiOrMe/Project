@@ -561,7 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPrefab: {fileID: 1725300319206958063, guid: 02b986008130cb548a5fce7f296420ec, type: 3}
   spawnAreaSize: {x: 50, y: 8, z: 10}
-  targetCount: 5
+  targetCount: 8
 --- !u!4 &272934853
 Transform:
   m_ObjectHideFlags: 0
