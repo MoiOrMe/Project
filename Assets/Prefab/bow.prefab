@@ -1206,7 +1206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   midPointVisual: {fileID: 3521256051562780787}
   arrowPrefab: {fileID: 1561633841363200773, guid: 22c7946709fc9e94db4e3d8905a2650d, type: 3}
-  arrowSpawnPoint: {fileID: 0}
+  arrowSpawnPoint: {fileID: 2904384114192601648}
   arrowMaxSpeed: 10
 --- !u!4 &9204793465601358293 stripped
 Transform:
