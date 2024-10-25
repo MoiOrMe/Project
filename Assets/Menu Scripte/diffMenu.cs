@@ -10,6 +10,7 @@ public class diffMenu : MonoBehaviour
 
     private void LaunchGame()
     {
+        // Charge la scène principale
         SceneManager.LoadScene("MainMap");
     }
 
@@ -33,7 +34,8 @@ public class diffMenu : MonoBehaviour
 
     public void Training()
     {
-        LaunchGame(); // Si tu as une scène d'entraînement, ajoute la logique ici
+        GameSettings.Difficulty = "Training"; // Définit la difficulté sur Training
+        LaunchGame(); // Lance le jeu en mode entraînement
     }
 
     public void Retour()
